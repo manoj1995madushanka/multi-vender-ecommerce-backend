@@ -13,7 +13,7 @@ app.use(cors({
   credentials: true
 }))
 app.use(bodyParser.json())
-app.use(cookieParser)
+app.use(cookieParser())
 
 app.use('/api', require('./routes/authRoutes'))
 
