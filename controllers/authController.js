@@ -1,6 +1,11 @@
 class AuthController{
   admin_login = async(req,res)=>{
-    console.log(res.body)
+    const {email,password} = req.body
+    try{
+
+    }catch (e){
+
+    }
   }
 }
 
